@@ -12,7 +12,7 @@ private:
 	Expression* left; //the expression on the left (if isNum, it's NULL)
 	Expression* right; //the expression on the right (if isNum, it's NULL)
 	bool isLeaf; //if value is a searched variable or constant, it's true
-//------------------------------------
+//---------------------------------------------------------------------------------------------------
 	//sets the isNum member
 	void isntNum() {
 		bool isntNum = false;;
@@ -43,14 +43,15 @@ private:
 				left = new Expression(leftExp);
 				right = new Expression(rightExp);
 				if (TESTING_ON) {
-					std::cout << "Left expression in " << expression << " is " << leftExp << std::endl;
-					std::cout << "Right expression in " << expression << " is " << rightExp << std::endl;
+					std::cout << "Left expression of " << expression << " is " << leftExp << std::endl;
+					std::cout << "Right expression of " << expression << " is " << rightExp << std::endl;
 				}
 				return;
 			}
 		}
 	}
 
+	//the whole parsing | WIP
 	void parse() {
 		getEqu();
 	}
