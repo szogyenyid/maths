@@ -2,4 +2,5 @@
 A mathematical expression parser and analyzer
 
 TODO:
--parsing
+-parsing (BRACKETS!)
+-working with parameters
