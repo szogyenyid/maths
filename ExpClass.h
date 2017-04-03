@@ -2,6 +2,8 @@
 #include <iostream>
 #include <string>
 
+const bool TESTING_ON = true;
+
 class Expression {
 private:
 	std::string expression; //the expression we got
@@ -27,6 +29,7 @@ private:
 		}
 		if (isntNum) isNum = false;
 		else isNum = true;
+		if (TESTING_ON) std::cout << "instNum in expression " << expression <<" \"returned\" with " << isNum << std::endl;
 	}
 	//splits the expression at the first = sign
 	void getEqu() {
