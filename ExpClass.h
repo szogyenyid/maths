@@ -42,7 +42,10 @@ private:
 				rightExp = expression.substr(i + 1, expression.length() - i - 1);
 				left = new Expression(leftExp);
 				right = new Expression(rightExp);
-				//std::cout << leftExp << " = " << rightExp << std::endl;
+				if (TESTING_ON) {
+					std::cout << "Left expression in " << expression << " is " << leftExp << std::endl;
+					std::cout << "Right expression in " << expression << " is " << rightExp << std::endl;
+				}
 				return;
 			}
 		}
