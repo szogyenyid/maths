@@ -4,6 +4,7 @@
 
 const bool TESTING_ON = true;
 //rolan itt járt!
+//dj nagyjuli
 class Expression {
 private:
 	std::string expression; //the expression we got
