@@ -72,15 +72,15 @@ public:
 	};
 };
 /*  GITHUB Tutorial
-	feltöltés:
-		0, minden local branchot törölsz
-		1, editelsz a kódban
-		2, nyitsz az editnek egy új bracnhet
-		3, stageled amit fel akarsz tölteni
-		4, commitolod amit editeltél
-		5, az elõbb létrehozott branchedet pusholod
-		6, kérsz rá egy pull requestet
-		7, a pull request elfogadása (merge)
+	feltoltes:
+		0, minden local branchot torolsz
+		1, editelsz a kodban
+		2, nyitsz az editnek egy uj bracnhet
+		3, stageled amit fel akarsz tolteni
+		4, commitolod amit editeltel
+		5, az elobb letrehozott branchedet pusholod
+		6, kersz ra egy pull requestet
+		7, a pull request elfogadasa (merge)
 		8, pullolsz
-		9, törlöd a branchet, ha kész az editelés. ha nincs kész, akkor goto 1,
+		9, torlod a branchet, ha kesz az editeles. ha nincs kesz, akkor goto 1.
 */
