@@ -71,3 +71,11 @@ public:
 		}
 	};
 };
+/*  GITHUB Tutorial
+	feltöltés:
+		0, minden local branchot törölsz
+		1, editelsz a kódban
+		2, nyitsz az editnek egy új bracnhet
+		3, stageled amit fel akarsz tölteni
+		4, commitolod amit editeltél
+*/
