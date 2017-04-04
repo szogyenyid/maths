@@ -83,4 +83,8 @@ public:
 		7, a pull request elfogadasa (merge)
 		8, pullolsz
 		9, torlod a branchet, ha kesz az editeles. ha nincs kesz, akkor goto 1.
+
+	letoltes:
+		1, pullolod mastert
+		DONE BAZMEG, EZ ILYEN IZI
 */
