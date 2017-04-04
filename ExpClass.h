@@ -78,4 +78,9 @@ public:
 		2, nyitsz az editnek egy új bracnhet
 		3, stageled amit fel akarsz tölteni
 		4, commitolod amit editeltél
+		5, az elõbb létrehozott branchedet pusholod
+		6, kérsz rá egy pull requestet
+		7, a pull request elfogadása (merge)
+		8, pullolsz
+		9, törlöd a branchet, ha kész az editelés. ha nincs kész, akkor goto 1,
 */
