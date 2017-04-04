@@ -3,8 +3,8 @@
 #include <string>
 
 const bool TESTING_ON = true;
-//rolan itt járt!
-//dj nagyjuli
+//rolan elment.
+
 class Expression {
 private:
 	std::string expression; //the expression we got
